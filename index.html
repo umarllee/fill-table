@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid common-con">
+        <div class="table-bar col-7  mt-5">
+            <table id="userTable" class="table table-striped ">
+                <thead>
+                    <tr class="bg-secondary col-8">
+                        <th scope="col">Name</th>
+                        <th scope="col">Lastname</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Password</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"> </tbody>
+            </table>
+
+        </div> 
+
+        <div id= "form-con" class="form-side col-4 bg-secondary ">
+            <div class="hamburger-con pt-3 pb-3 pe-3">
+                <div id="userForm" class="topnav">
+                    <button id="btn-hamburger" type="button" class="icon btn" onclick="openHamburger()">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="myForm" class="input-bar col-10 mx-auto p-3 bg-secondary">
+                <div class="inputs-container ">
+                    <form id="my-form">
+                        <div class="mb-3">
+                            <label for="Firstname" class="form-label"> Name:</label>
+                            <input id="fname" class="form-control" type="text">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="Lastname" class="form-label"> Lastname:</label>
+                            <input id="lname" class="form-control" type="text">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Email" class="form-label"> Email address:</label>
+                            <input id="email" class="form-control" type="email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Password" class="form-label"> Password:</label>
+                            <input id="psw" class="form-control" type="password">
+                        </div>
+                        <button id="addBtn" type="button" class="btn btn-danger btn-add">Add</button>
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/9d5ccbd53f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>

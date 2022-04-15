@@ -1,0 +1,56 @@
+.common-con {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-side {
+    display: flex;
+    flex-direction: column;
+    height: 41rem;
+    position: absolute;
+    margin-left: 65%;
+}
+
+.topnav {
+    width: 15%;
+    height: 15%;
+    float: right;
+}
+
+.topnav button {
+    color: white;
+    padding: 0.3em;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+
+}
+
+.topnav button:hover {
+    background-color: #ffde00;
+    color: #727272;
+}
+
+
+.topnav .icon {
+    background: #00bd58;
+    display: block;
+    right: 0;
+    top: 0;
+}
+
+.input-bar {
+    display: none;
+    color: #fff;
+}
+
+.btn-add {
+    width: 100%;
+}
+
+.span-color{
+    color: red;
+    text-align: center;
+}
